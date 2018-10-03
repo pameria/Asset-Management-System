@@ -1,0 +1,278 @@
+﻿header {
+    background-color: #929ea2;
+    margin: 0;
+    height: 10%;
+    width: 100%;
+    padding: 0 40px;
+    font-size: 1.3em;
+}
+
+#logo {
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Germania One';
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#headerMenu {
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+
+}
+
+#announcements {          
+    font-family: Roboto;
+    text-align: left;
+    color: grey;
+    font-size: large;
+
+
+}
+
+#home {                    
+    font-family: Roboto;
+    color: gray;
+    margin-left: 50px;
+    
+}
+
+#FAQ {                      
+    font-family: 'Roboto';
+    color: gray;
+}
+
+#servicerequest {           
+    font-family: 'Roboto';
+    color: gray;
+    font-size: large;
+}
+
+#RequestList {             
+    margin-left: 1000px;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+
+textarea {          
+    width: 700px;
+    height: 150px;
+    margin-left: 50px;
+    border: groove;
+    font-size: medium;
+}
+
+#buttonPosition {      
+    position:relative;
+    top: 0px;
+    left: 710px;
+}
+
+#buttonPositionDelete {        
+    position: relative;
+    top: 20px;
+    left: 910px;
+}
+
+#profilebutton {            
+    position: relative;
+    top: 0px;
+    left: 1100px;
+}
+
+#ASRSearchbutton {         
+    position: relative;
+    top: -10px;
+    left: 30px;
+}
+
+
+#profileUpdateDelete {       
+    position: relative;
+    top: -50px;
+    left: 940px;
+}
+
+#profileUpdate {            
+    position: relative;
+    top: -50px;
+    left: 970px;
+}
+
+#profileDelete {            
+    position: relative;
+    top: -60px;
+    left: 970px;
+}
+
+#ASRAdd {                   
+    position: relative;
+    top: -280px;
+    left: 140px;
+}
+
+#ASRUpdate {                
+    position: relative;
+    top: -230px;
+    left: 90px;
+}
+
+#ASRDelete {                
+    position: relative;
+    top: -180px;
+    left: 30px;
+}
+
+
+
+#update {                
+    margin-left: 1000px;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+
+#delete {               
+    margin-left: 1000px;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+
+.Gym, .Cleaning, .Post, .Maintenance {      
+    color: grey;
+    border: 2px solid gray;
+    width: 410px;
+    height: fit-content;
+    display: inline-block;
+    margin-left: 200px;
+    text-align: left;
+    text-indent: 1.0em;
+    background-color: #E5E5E5;
+}
+
+.Gym1, .Cleaning1, .Post1, .Maintenance1 {       
+    color: grey;
+    border: 2px solid gray;
+    width: 410px;
+    height: fit-content;
+    display: inline-block;
+    margin-left: 350px;
+    text-align: left;
+    text-indent: 1.0em;
+    background-color: #E5E5E5;
+
+}
+
+#AdminprofileAdd {
+    position: relative;
+    top: 50px;
+    left: -10px;
+}
+
+.SRGym, .SRCleaning, .SRPost, .SRMaintenance {         
+    color: grey;
+    border: 2px solid gray;
+    width: 410px;
+    height: fit-content;
+    display: inline-block;
+    margin-left: 350px;
+    text-align: left;
+    text-indent: 1.0em;
+    background-color: #E5E5E5;
+}
+
+#login {                    
+    color: grey;
+    border: 5px dotted black;
+    width: 430px;
+    height: fit-content;
+    display: inline-block;
+    margin-left: 500px;
+    text-align: center;
+    text-indent: 1.0em;
+    background-color: #E5E5E5;
+
+}
+
+#ADashButtons {             
+    position: relative;
+    top: -55px;
+    left: 580px;
+}
+
+#ADashButtonsSR, #ADashButtonsN, #ADashButtonsA {     
+    position: relative;
+    top: -55px;
+    left: 0px;
+}
+
+#AdminASAdd {               
+    position: relative;
+    top: 20px;
+    left: 500px;
+}
+
+#AdminASUpdate {              
+    position: relative;
+    top: 20px;
+    left: 530px;
+}
+
+#AdminASDelete {            
+    position: relative;
+    top: 20px;
+    left: 560px;
+}
+
+.textbox {
+    width: 80%;
+    height: 30%;
+    margin-left: 440px;
+
+}
+
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+html, body {
+    /* background:  */
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    display: block;
+}
+
+nav {
+    float: left;
+    background: #eeeeee;
+    height: 90%;
+    margin: 0;
+    padding: 25px;
+    box-shadow: 6px 7px 53px -10px rgba(0,0,0,0.44);
+}
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        line-height: 30px;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: gray;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 1.5em;
+        }
+
+footer {
+    background-color: #929ea2;
+    display: inline-block;
+    height: 5%;
+    width: 100%;
+}
